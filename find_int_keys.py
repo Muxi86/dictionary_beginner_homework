@@ -7,8 +7,7 @@ def find_int_keys(data: dict) -> list:
         list: A list of all keys in the dictionary that are integers.
     """
     for i in data.keys():
-        if i > chr(48) and i < chr(57):
-            print(i)
+        print(i)
     
     return
 data = {
