@@ -9,4 +9,13 @@ def get_user_names_with_age_range(data:list, min_age:int, max_age:int) -> list:
     Returns:
         list: A list of users with the given age range
     """
-    return 
+    names = []
+    for i in data:
+        if i['age']==min_age or i['age']==max_age:
+            names.append(i['name'])
+    return names
+data = [{'name': 'Anny', 'age': 20}, 
+        {'name': 'Ann', 'age': 30}, 
+        {'name': 'John', 'age': 11}, 
+        {'name': 'Mary', 'age': 27}]
+print(get_user_names_with_age_range(data,11,30))

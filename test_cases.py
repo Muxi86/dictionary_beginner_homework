@@ -251,15 +251,15 @@ Output: 'UZ'
 **Example 1:**
 
 ```Python
-Input: ([{'name': 'John', 'age': 20}, {'name': 'Mary', 'age': 17},{'name': 'Ban', 'age': 23},{'name': 'John', 'age': 27}],18,25)
-Output: ['John','Ban']
+Input: ([{'name': 'John', 'age': 18}, {'name': 'Mary', 'age': 17},{'name': 'Ban', 'age': 25},{'name': 'John', 'age': 27}],27,17)
+Output: ['John','Mary']
 
 ```
 **Example 2:**
 
 ```Python
-Input: ([{'name': 'Anny', 'age': 20}, {'name': 'Mary', 'age': 30}],20,30)
-Output: ['John','Mary']
+Input: ([{'name': 'Anny', 'age': 20}, {'name': 'Mary', 'age': 30}],30,20)
+Output: ['Anny','Mary']
 
 ```
 **Example 3:**
