@@ -6,4 +6,10 @@ def sum_float_values(data: dict) -> float:
     Returns:
         float: The sum of all float values in the dictionary.
     '''
+    for i in data.values():
+        if i.float():
+            print(i)
     return 
+
+data = {'a': 0.5, 'b': 7.5, 'c': 3}
+print(sum_float_values(data))
